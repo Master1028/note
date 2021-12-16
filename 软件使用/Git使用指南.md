@@ -12,7 +12,7 @@ Git操作的过程中突然显示Another git process semms to be running in this
 版权声明：本文为CSDN博主「迟到的月亮」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/qq_32193151/article/details/70792594
 
-#### 引言
+#### 引言![gitcommand](D:\Desktop\gitcommand.jpg)
 git 的使用 分为三个区域，分别是，工作区，暂存区，本地库。
 工作区就是你电脑中文件夹内；
 暂存区是你将工作区的文件添加后暂时放置的地方；
@@ -51,8 +51,17 @@ git commit -m "你的注释"
 
 #### 本地库和原地库的交互
 1.本地库推送至远程库
-git remote 
-git push
+git remote add origin 你的远程库地址  // 把本地库与远程库关联
+git push -u origin master    // 第一次推送时
+
+git push origin master  // 第一次推送后，直接使用该命令即可推送修改
+
 2.克隆远程库到本地库
 git clone
 3.拉取远程库到本地库
+
+
+
+
+
+
