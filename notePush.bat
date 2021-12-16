@@ -4,5 +4,5 @@ G:
 cd O:\MyNote
 git add .
 git commit -m "From Bat Updata"
-git push noteRepo
+git push noteRepo main
 pause
